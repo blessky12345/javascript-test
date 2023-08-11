@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="todo.css">
+    <script src="todo.js"></script>
+</head>
+<body>
+    
+    <!-- <div class="todo">
+        <h1>To-Do Application</h1>
+        <div>
+
+        </div>
+    </div> -->
+
+    <div class="mx-auto shadow-sm col-11 col-lg-7 col-md-7 shadow mt-5 backcol">
+        <div class="row">
+          <h1 class="text-center text-danger mb-3">
+            To-do Application
+          </h1>
+        </div>
+        <div class="form-floating mb-3 col-5 w-100">
+          <input type="text" class="form-control" id="enterTodo" />
+          <label for="Enter To-do">Enter To-do</label>
+        </div>
+        <div class="form-floating mb-3 col-5 w-100">
+          <input type="datetime-local" class="form-control" id="timeTodo" />
+          <label for="Time To-do">Time To-do From:</label><br>
+          <!-- <label for="">From</label> -->
+        </div>
+
+        <div class="form-floating mb-3 col-5 w-100">
+            <input type="datetime-local" class="form-control" id="timeClose" />
+            <label for="Time To-do">Time To-do To:</label>
+          </div>
+        <div class="form-floating">
+            <button class="btn btn-danger text-white w-100" onclick="addtodo()">Add To-do</button>
+        </div>
+        <div class="container-fluid shadow-sm col-lg-7 col-md-7 col-sm-10">
+            <table class="table table-bordered table-striped" id="itemTable"></table>
+        </div>
+    </div>
+
+</body>
+</html>
